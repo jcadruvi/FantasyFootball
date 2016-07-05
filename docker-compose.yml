@@ -1,0 +1,8 @@
+fantasy_football:
+  container_name: fantasy_football
+  build: .
+  hostname: fantasy_football
+  ports:
+    - "5001:5001"
+  volumes:
+    - .:/opt/fantasy_football
