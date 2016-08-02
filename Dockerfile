@@ -18,6 +18,6 @@ COPY . /opt/fantasy_football
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-EXPOSE 5001
+EXPOSE 5002
 
 CMD ["supervisord", "-c", "/opt/fantasy_football/supervisord.conf"]

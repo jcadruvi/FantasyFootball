@@ -3,6 +3,6 @@ fantasy_football:
   build: .
   hostname: fantasy_football
   ports:
-    - "5001:5001"
+    - "5002:5002"
   volumes:
     - .:/opt/fantasy_football
