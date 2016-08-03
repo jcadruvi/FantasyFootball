@@ -1,4 +1,8 @@
+import logging
+
 SQL_HOST = '192.168.99.100'
 SQL_DATABASE = 'football'
 SQL_USER_NAME = 'mon360'
 SQL_PASSWORD = 'MyTJ2Q92bF'
+
+LOGGING_LEVEL = logging.INFO
